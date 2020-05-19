@@ -1,0 +1,1 @@
+-e git+https://github.com/acarrera94/graphql-core@37044c820ffe505e26a7c84a66576ee8d2690e1e#egg=graphql_core
