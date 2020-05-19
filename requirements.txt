@@ -1,1 +1,0 @@
-git+https://github.com/acarrera94/graphql-core@handle_sets#egg=graphql-core
