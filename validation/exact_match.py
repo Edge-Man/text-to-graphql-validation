@@ -10,7 +10,7 @@ def exact_set_match(prediction, target):
 
 
 # calculates exact match accuracy over a list of predictions and their corresponding targets
-def exact_match_accuracy(predictions, targets):
+def v(predictions, targets):
     assert len(predictions) == len(targets)
     matches = [1 if exact_set_match(prediction, target) else 0 for prediction, target in zip(predictions, targets)]
     sum(matches)
