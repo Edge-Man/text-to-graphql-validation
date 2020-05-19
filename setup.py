@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="graphql_validation", # Replace with your own username
+    name="graphqlval", # Replace with your own username
     version="0.0.1",
     author="Andre Carrera",
     description="A small example package",
