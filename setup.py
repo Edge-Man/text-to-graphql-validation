@@ -6,8 +6,7 @@ with open("README.md", "r") as fh:
 setuptools.setup(
     name="graphqlval",  # Replace with your own username
     version="0.0.1",
-    author="Andre Carrera",
-    description="A small example package",
+    description="validation for graphql queries",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/acarrera94/text-to-graphql-validation",
