@@ -12,13 +12,6 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     url="https://github.com/acarrera94/text-to-graphql-validation",
     packages=setuptools.find_packages(),
-    install_requires=['graphql-core'],
-    dependency_links=[
-        'git+https://github.com/acarrera94/graphql-core@handle_sets#egg=graphql-core'],
-    classifiers=[
-        "Programming Language :: Python :: 3",
-        "License :: OSI Approved :: MIT License",
-        "Operating System :: OS Independent",
-    ],
+    install_requires=['graphql-core @ git+https://github.com/acarrera94/graphql-core@handle_sets#egg=graphql-core'],
     python_requires='>=3.6',
 )
