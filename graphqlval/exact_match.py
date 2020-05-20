@@ -15,6 +15,3 @@ def exact_match_accuracy(predictions, targets):
     matches = [1 if exact_set_match(prediction, target) else 0 for prediction, target in zip(predictions, targets)]
     sum(matches)
     return sum(matches)/len(targets)
-
-
-print(exact_set_match(prediction="query { test { me you } }", target="query { test { you me } }"))
